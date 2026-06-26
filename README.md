@@ -27,7 +27,7 @@ Paste any brand's Instagram captions, bio, or website copy → get a structured 
 
 ## Live Demo
 
-[Coming soon]
+brand-voice-analyser.vercel.app
 
 ## Built By
 
