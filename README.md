@@ -1,16 +1,35 @@
-# React + Vite
+# Brand Voice Analyzer
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A lightweight AI tool that analyzes a brand's content and generates a structured **Brand Voice Card** — built as a proof-of-concept for [Bevyl](https://www.bevyl.ai/).
 
-Currently, two official plugins are available:
+## Why I Built This
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Bevyl's onboarding captures basic brand info through a fixed form. This tool explores a deeper approach — using LLMs to extract tone, vocabulary, personality, and content strategy directly from a brand's existing content (captions, bio, website copy).
 
-## React Compiler
+The output could enrich Bevyl's brand learning layer and make video outputs more on-brand.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## What It Does
 
-## Expanding the Oxlint configuration
+Paste any brand's Instagram captions, bio, or website copy → get a structured Brand Voice Card:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- **Tone** — how the brand sounds
+- **Personality** — what the brand feels like
+- **Hook Style** — what kind of hooks work for this brand
+- **Vocabulary** — words they use vs avoid
+- **Sample Caption** — ready-to-use short-form caption
+- **Video Content Ideas** — 3 ideas aligned to brand voice
+
+## Tech Stack
+
+- React (Vite)
+- Groq API — LLaMA 3.3 70B
+- Deployed on Vercel
+
+## Live Demo
+
+[Coming soon]
+
+## Built By
+
+Samruddhi Kulkarni — AI Engineer  
+[LinkedIn](https://linkedin.com/in/samruddhi-kulkarni-31a653261) · [GitHub](https://github.com/Kulkarnisamruddh)
